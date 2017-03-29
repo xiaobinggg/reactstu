@@ -215,7 +215,7 @@ v6.10.0
 ![  sinopia](images/2017/03/a.png)
 
   修改私服配置文件，如3)步所示/root/.config/sinopia/config.yaml是配置文件的地址，改成如下内容：
-  ```json
+  ```
   #
   # This is the default config file. It allows all users to do anything,
   # so don't use it on production systems.
@@ -261,7 +261,7 @@ v6.10.0
     # log settings
     logs:
         - {type: stdout, format: pretty, level: http}
-  #- {type: file, path: sinopia.log, level: info}    
+        #- {type: file, path: sinopia.log, level: info}    
   ```
   5.修改后重启sinopia
 3.	客户机配置使用私服：
